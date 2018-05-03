@@ -50,4 +50,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, ActivityToFragment.class);
         startActivity(intent);
     }
+
+    public void btnOpenFragmentToFragmentHomeActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, FragmentToFragmentHomeActivity.class);
+        startActivity(intent);
+    }
 }

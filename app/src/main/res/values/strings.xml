@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">PicturePinchZoom</string>
-    <string name="flower_description">Add Android TextView which will hold the name of the picture, this TextView will be placed below ImageView (ivIcon) in the center, add some margin from the top, try to increase text size to (20sp) and change text style to (italic and bold).</string>
+    <string name="flower_description">Add Android TextView which will hold the name of the picture, this TextView will be placed below ImageView (ivIcon).</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="home_fragment_title">Home fragment</string>
     <string name="first_fragment_title">First fragment</string>
     <string name="second_fragment_title">Second fragment</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="f_f_data_send">Fragment - 1</string>
 
 </resources>

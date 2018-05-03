@@ -37,13 +37,13 @@
             android:name="com.sanat.nitolniloy.picturepinchzoom.HeadlineFragment"
             android:id="@+id/headline_fragment"
             android:layout_width="match_parent"
-            android:layout_height="100dp"></fragment>
+            android:layout_height="50dp"></fragment>
 
         <fragment
             android:name="com.sanat.nitolniloy.picturepinchzoom.DescriptionFragment"
             android:id="@+id/description_fragment"
             android:layout_width="match_parent"
-            android:layout_height="100dp"></fragment>
+            android:layout_height="50dp"></fragment>
         
     </LinearLayout>
 
@@ -58,6 +58,13 @@
         android:onClick="OpenActivityToFragmentMsgSend"
         android:layout_marginTop="5dp"
         android:text="Dynamic Fragment Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="btnOpenFragmentToFragmentHomeActivity"
+        android:layout_marginTop="5dp"
+        android:text="Open Fragment To Fragment Home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sanat.nitolniloy.picturepinchzoom.FragmentToFragmentHomeActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/f2f_title"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Fragment To Fragment Data Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:background="@color/gray"
+        android:id="@+id/fragment_to_fragment_container_SendSection"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/light_green"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </FrameLayout>
+
+</LinearLayout>
