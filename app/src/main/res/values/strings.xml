@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PicturePinchZoom</string>
+    <string name="flower_description">Add Android TextView which will hold the name of the picture, this TextView will be placed below ImageView (ivIcon) in the center, add some margin from the top, try to increase text size to (20sp) and change text style to (italic and bold).</string>
+</resources>
