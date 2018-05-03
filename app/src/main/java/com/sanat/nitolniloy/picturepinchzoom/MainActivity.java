@@ -1,5 +1,6 @@
 package com.sanat.nitolniloy.picturepinchzoom;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
@@ -38,5 +39,15 @@ public class MainActivity extends AppCompatActivity {
                 mDialog.show();
             }
         });
+    }
+
+    public void OpenMain2Activity(View view) {
+        Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+        startActivity(intent);
+    }
+
+    public void OpenActivityToFragmentMsgSend(View view) {
+        Intent intent = new Intent(MainActivity.this, ActivityToFragment.class);
+        startActivity(intent);
     }
 }

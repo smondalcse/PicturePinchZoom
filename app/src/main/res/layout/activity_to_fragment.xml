@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sanat.nitolniloy.picturepinchzoom.ActivityToFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Acvity To Fragment Communication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:background="@color/light_green"
+        android:id="@+id/fragment_container_msg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></FrameLayout>
+
+    <FrameLayout
+        android:background="@color/gray"
+        android:id="@+id/activity_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/txtMsgDisplay"
+                android:gravity="center"
+                android:text="Message Display Here...."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

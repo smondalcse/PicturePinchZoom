@@ -27,4 +27,38 @@
         android:layout_marginTop="5dp"
         android:text="@string/flower_description" />
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <fragment
+            android:layout_marginBottom="10dp"
+            android:name="com.sanat.nitolniloy.picturepinchzoom.HeadlineFragment"
+            android:id="@+id/headline_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></fragment>
+
+        <fragment
+            android:name="com.sanat.nitolniloy.picturepinchzoom.DescriptionFragment"
+            android:id="@+id/description_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></fragment>
+        
+    </LinearLayout>
+
+    <Button
+        android:onClick="OpenMain2Activity"
+        android:layout_marginTop="10dp"
+        android:text="Dynamic Fragment Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="OpenActivityToFragmentMsgSend"
+        android:layout_marginTop="5dp"
+        android:text="Dynamic Fragment Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
